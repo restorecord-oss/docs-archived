@@ -1,20 +1,20 @@
 input: .
 output: .retype
-url: localhost
+url: docs.restorecord.com
 branding:
   title: RestoreCord
-  label: Docs
+  label: Help
 links:
-- text: Home
-  link: https://Restorecord.com
-  icon: Home
+  - text: Home
+    link: https://Restorecord.com
+    icon: Home
 
-- text: Pricing
-  link: https://restorecord.com/#pricing
-  icon: star
+  - text: Pricing
+    link: https://restorecord.com/#pricing
+    icon: star
 
-- text: Support Server
-  link: https://discord.gg/restore
-  icon: people 
-  
-  copyright: "&copy; Copyright {{ year }}. All rights reserved."
+  - text: Support Server
+    link: https://discord.gg/restore
+    icon: people
+
+    copyright: "&copy; Copyright {{ year }}. All rights reserved."
