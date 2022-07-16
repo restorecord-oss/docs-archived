@@ -6,15 +6,15 @@ branding:
   label: Help
 links:
   - text: Home
-    link: https://Restorecord.com
+    link: https://restorecord.com
     icon: Home
 
   - text: Pricing
     link: https://restorecord.com/#pricing
     icon: star
 
-  - text: Support Server
-    link: https://discord.gg/restore
+  - text: Support
+    link: https://community.restorecord.com/
     icon: people
 
     copyright: "&copy; Copyright {{ year }}. All rights reserved."
