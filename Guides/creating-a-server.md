@@ -2,6 +2,7 @@
 title: Create A Server
 order: -2
 tags: [Guides]
+icon: stack-24
 ---
 
 # How to create a server on RestoreCord.

@@ -3,10 +3,13 @@ title: Setup a Custom Bot
 order: -1
 tags: [Guides]
 description: This is a Step-by-Step guide on how to setup custom bot ready for RestoreCord
+icon: person-24
 ---
 
 !!!warning
-Due to security reasons, it is highly recommended to create an additional Discord Account for this step.
+Due to security reasons, it is highly recommended to create an additional Discord Account for this step. 
+Read this before proceeding.
+[!ref](/guides/secure-your-bot/#security-checklist)
 !!!
 
 ## Create a bot on Discord
@@ -28,8 +31,8 @@ After creating an Application, click on oAuth2.
 Then click on **Add Redirect**.
 ![](../static/SetupACustomBot/setupRedirect/image-004.jpg)
 
-||| Redirect link:
-https://restorecord.com/api/callback
+||| **Redirect URL:**
+    https://restorecord.com/api/callback
 |||
 
 ![](../static/SetupACustomBot/setupRedirect/image-005.jpg)
