@@ -14,4 +14,4 @@ You should look at the possible solutions:
 | :---: |
 | Is your bot in the Server?  | 
 | Does your bot have permissions? |
-| Make sure that the bot role is above the `verified` role.  |  
+| Make sure that the `bot` role is above the `verified` role.  |  
