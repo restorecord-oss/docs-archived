@@ -10,7 +10,7 @@ If you're getting error messages such as:
 
 You should look at the possible solutions:
 
-   | **Possible Solution** 
+   | **Possible Solutions** 
 | :---: |
 | Is your bot in the Server?  | 
 | Does your bot have permissions? |
