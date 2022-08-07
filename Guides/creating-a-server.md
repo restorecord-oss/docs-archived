@@ -12,7 +12,7 @@ Then fill out the requested information:
 - Server Name
 - GuildId / ServerID
 - Role ID (The role the user received when they verify)
-- Choose the a custom bot you want to use for this server.
+- Choose the custom bot you want to use for this server.
 !!!warning
 After filling out the form, don't forget to click on **Create**!
 !!!
