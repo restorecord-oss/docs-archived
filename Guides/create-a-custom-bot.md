@@ -1,96 +1,74 @@
 ---
 title: Setup a Custom Bot
-order: -1
+order: 0
 tags: [Guides]
 description: This is a Step-by-Step guide on how to set up a custom bot ready for RestoreCord
 icon: person-24
 ---
 
 !!!warning
-Due to security reasons, it is highly recommended to create an additional Discord Account for this step. 
+Due to security reasons, it is highly recommended to create an additional Discord Account for this step.
 Read this before proceeding.
 [!ref](/guides/secure-your-bot/#security-checklist)
 !!!
 
-## Create a bot on Discord
-Navigate to https://discord.com/developers/applications/
-
-!!!info
-Login if required.
-!!!
-
-Create a new application by clicking on **New Application**.
-![](../static/SetupACustomBot/createApplication/image-002.jpg)
-And give your Application an awesome name.
-
 ### Setup Privileged Gateway Intents
-Setting up Privileged Gateway Intents might help your bot pull members faster and for future updates! 
+
+Setting up Privileged Gateway Intents might help your bot pull members faster and for future updates!
 
 - Scroll down and toggle every Intent available:
-![](../static/SetupACustomBot/setupIntents/image1.png)
+  ![](../static/BotSetup/intents.png)
 
 ### Setup oAuth2 Redirect
-After creating an Application, click on oAuth2.
-![](../static/SetupACustomBot/setupRedirect/image-003.jpg)
-
-Then click on **Add Redirect**.
-![](../static/SetupACustomBot/setupRedirect/image-004.jpg)
 
 ||| **Redirect URL:**
-    https://restorecord.com/api/callback
+https://restorecord.com/api/callback
 |||
 
-![](../static/SetupACustomBot/setupRedirect/image-005.jpg)
+- After creating an Application on the [Discord Developer Portal](https://discord.com/developers/applications), go to the `OAuth2` tab and add a Redirect URL.
+  ![](../static/BotSetup/redirect_url.png)
 
-!!!warning Click "Save Changes"
+!!!success Click "Save Changes"
 You have successfully set up a redirect URL for custom bots.
 !!!
 
+### Setup Interaction URL
+
+!!!warning Business Plan Required
+This feature is only available for Business Plan users, if you are not a Business Plan user, you can skip this step.
+[!ref](https://restorecord.com/dashboard/upgrade)
+!!!
+
+This will allow your Bot to be online and be able to respond to commands.
+
+- Edit your Custom Bot on the [Dashboard](https://restorecord.com/dashboard/custombots) and add the Public Key from the [Discord Developer Portal](https://discord.com/developers/applications) to the `Interaction URL` field.
+  ![](../static/BotSettings/configuration.png)
+
+  ![](../static/BotSetup/interaction_url.png)
+
+||| **Interaction URL:**
+https://restorecord.com/api/interactions
+|||
+
+!!!success Click "Save Changes"
+You have successfully set up an Interaction URL for custom bots.
+!!!
+
 ## Find Further Information
+
 Finding some required information about your bot might be hard, here is a step-by-step guide:
 
 ### Bot Token
+
 After creating a Bot, click on "Reset Token" to reveal its secret Tokens.
-![](../static/SetupACustomBot/FindInformation/image-002.jpg)
-then copy the Token...
-![](../static/SetupACustomBot/FindInformation/image-004.jpg)
+![](../static/BotSetup/bot_token.png)
 
 ### Client ID
-Click on oAuth2.
-![](../static/SetupACustomBot/FindInformation/image-005.jpg)
-under CLIENT ID, click **Copy**...
-![](../static/SetupACustomBot/FindInformation/image-006.jpg)
+
+Click on OAuth2 and copy the Client ID.
+![](../static/BotSetup/client_id.png)
 
 ### Client Secret
-Click on oAuth2, on the right-hand side of the screen, under **CLIENT SECRET**, click **"Reset Secret"**.
-![](../static/SetupACustomBot/FindInformation/image-007.jpg)
-then copy the **CLIENT SECRET**
-![](../static/SetupACustomBot/FindInformation/image-009.jpg)
 
-!!!success Woohoo!
-Dora The Explorer found several information about their bot.
-!!!
-
-
-## Create a bot on RestoreCord
-
-If you want to create a custom bot, you must fill out this form with the corresponding information:
-
-- Bot Name
-- ClientID
-- Bot Token
-- Bot Secret
-
-!!!Primary Don't know where to find this information? Check this out!
-[!ref](/guides/create-a-custom-bot/#find-further-information)
-!!!
-
-![](../static/SetupACustomBot/CreateABotOnRestorecord/image-001.png)
-
-!!!warning
-After filling out the form, don't forget to click on **Create**!
-!!!
-
-!!!success Congratulations!
-You have completely set up a custom bot ready for RestoreCord.
-!!!
+Click on OAuth2, on the right-hand side of the screen, under **CLIENT SECRET**, click **"Reset Secret"**.
+![](../static/BotSetup/bot_secret.png)

@@ -5,18 +5,21 @@ tags: [Guides]
 icon: stack-24
 ---
 
-# How to create a server on RestoreCord.
+Navigate to the [Servers Dashboard](https://restorecord.com/dashboard/settings) and click on the `Create New Server` button.
+Then you will be asked to enter the following information:
 
-Navigate to https://restorecord.com/dashboard/settings and create a new server.
-Then fill out the requested information:
 - Server Name
-- GuildId / ServerID
-- Role ID (The role the user received when they verify)
-- Choose the custom bot you want to use for this server.
-!!!warning
-After filling out the form, don't forget to click on **Create**!
+- Guild Id / Server Id
+- Role Id (The role the user received when they verify)
+- Choose the custom bot you want to use for this server <b style="color: #ff3232; text-decoration: underline">( You can't change this later! )</b>
+
+![](../static/ServerSetup/create.gif)
+
+!!!warning Bot Role
+<u>Make sure that the role of the Bot is higher than the verifed/member role.</u>
+![](../static/ServerSetup/role.png)
 !!!
-![](../static/CreateAServer/image-001.png)
+
 !!!success Congratulations!
 You have successfully created a server on RestoreCord
 !!!
