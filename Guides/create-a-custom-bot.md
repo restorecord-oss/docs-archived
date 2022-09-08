@@ -47,7 +47,7 @@ This will allow your Bot to be online and be able to respond to commands.
   ![](../static/BotSetup/interaction_url.png)
 
 ||| **Interaction URL:**
-https://restorecord.com/api/interactions
+https://restorecord.com/api/interaction
 |||
 
 !!!success Click "Save Changes"
