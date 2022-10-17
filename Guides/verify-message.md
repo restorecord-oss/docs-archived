@@ -1,6 +1,6 @@
 ---
 title: Verify Message
-order: -1
+order: -2
 tags: [Guides]
 icon: mail-24
 ---

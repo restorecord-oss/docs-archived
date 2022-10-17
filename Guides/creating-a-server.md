@@ -1,6 +1,6 @@
 ---
 title: Create A Server
-order: -2
+order: -1
 tags: [Guides]
 icon: stack-24
 ---
