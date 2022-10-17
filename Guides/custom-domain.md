@@ -29,6 +29,8 @@ Once you have added your domain name to Cloudflare, you will need to set up Page
 
 You have to create a Page Rule for your domain, replace `example.com` with your domain name.
 
+#### Redirect `/api/callback`
+
 ||| **URL:**
 
 ```
@@ -46,6 +48,26 @@ https://restorecord.com/api/callback?code=$1&state=$2
 |||
 
 ![](../static/DomainSetup/cloudflare_page_rules.png)
+
+#### Redirect `/verify`
+
+||| **URL:**
+
+```
+example.com/verify/*
+```
+
+|||
+
+||| **Enter destination URL:**
+
+```
+https://restorecord.com/verify/$1
+```
+
+|||
+
+![](../static/DomainSetup/cloudflare_page_rules_2.png)
 
 ### Step 3: Setup Discord Redirect URL
 
@@ -66,3 +88,11 @@ You will need to add `example.com` to the `Custom Domain` section. Replace `exam
 !!! success Done!
 You have successfully set up a Custom Domain for your bot. You can now use your own domain name instead of the RestoreCord domain name.
 !!!
+
+```
+
+```
+
+```
+
+```
