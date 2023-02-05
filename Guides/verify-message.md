@@ -5,8 +5,9 @@ tags: [Guides]
 icon: mail-24
 ---
 
-!!!info Business Plan required
-This feature is only available on the Business Plan. If you want to upgrade your plan, goto the [Upgrade](https://restorecord.com/dashboard/upgrade) page.
+!!!warning Business Plan Required
+**This feature is only available for Business Plan users, if you are not a Business Plan user, you can skip this step.**
+[!ref Upgrade Account](https://restr.co/upgr)
 !!!
 
 ### Invite your bot
@@ -30,3 +31,8 @@ If you like to add an Image to the embed, you can use the `image` argument.
 ```
 
 ![](../static/ServerSetup/verify_message.png)
+
+!!!success Verify message created!
+You have successfully set up a verify message.
+Make sure to **deny** `View Channel` the verified role so your members won't get confused.
+!!!

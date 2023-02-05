@@ -13,7 +13,7 @@ Then you will be asked to enter the following information:
 - Role Id (The role the user received when they verify)
 - Choose the custom bot you want to use for this server <b style="color: #ff3232; text-decoration: underline">( You can't change this later! )</b>
 
-![](../static/ServerSetup/create.gif)
+![](../static/ServerSetup/create.png)
 
 !!!warning Bot Role
 <u>Make sure that the role of the Bot is higher than the verifed/member role.</u>

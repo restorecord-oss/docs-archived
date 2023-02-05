@@ -36,7 +36,7 @@ You have to create 2 Page Rules for your domain, replace `example.com` with your
 ||| **URL:**
 
 ```
-example.com/api/callback?code=*&state=*
+https://example.com/api/callback?code=*&state=*
 ```
 
 |||
@@ -56,7 +56,7 @@ https://restorecord.com/api/callback?code=$1&state=$2
 ||| **URL:**
 
 ```
-example.com/verify/*
+https://example.com/verify/*
 ```
 
 |||
