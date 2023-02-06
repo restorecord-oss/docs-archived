@@ -22,7 +22,7 @@ Verifying as server owner doesn't work, try asking your friends to verify on you
 If you have `2FA requirement` enabled on your Discord server then enable 2FA on the bot owner account. It is something on Discord's side which can't be surpassed.
 
 !!!info
-If you are still experiencing issues after attempted all possible solutions the contact us by our [Forums](https://community.restorecord.com/), [Telegram Group](https://t.me/restorecord) or [Discord Server](https://discord.gg/restorebot).
+If you are still experiencing issues after attempting all possible solutions then feel free to contact us by our [Forums](https://community.restorecord.com/), [Telegram Group](https://t.me/restorecord) or [Discord Server](https://discord.gg/restorebot).
 !!!
 
 
