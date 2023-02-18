@@ -9,21 +9,21 @@ icon: home
 
 ## New to RestoreCord?
 
-RestoreCord is a Discord Recovery Service, that allows you to restore your Discord Guild after being nuked, raided, or otherwise lost. It is simple, easy to use and been around since 2020, and is still growing.
+RestoreCord is a Discord recovery service, that allows you to restore your Discord guild (along with settings & members) after being nuked, raided, or otherwise lost. It's simple, easy to use, and reliable since 2020.
 
 ## Where can I use RestoreCord?
 
 RestoreCord has multiple use cases:
 
-- Verification Service
-- Server Backup & Restore
-- Transfer Members between Old and New Server
-- Light Alt Detection
+- Verification service
+- Server backup & restore
+- Transfer members between the Old and New server
+- Light alternate account detection
 
 ## How does RestoreCord work?
 
-RestoreCord uses Discords OAuth2 feature which gives users the ability to add Applications/Bots to their accounts. With special permissions, RestoreCord can “pull” users to specified servers. This WILL NOT grant anyone access to your account and WILL NOT steal your account token/email/password. RestoreCord is entirely safe.
+RestoreCord uses Discord's [OAuth2](https://discord.com/developers/docs/topics/oauth2){ target="_blank" } feature which gives users the ability to add Applications/Bots to their accounts. With special permissions, RestoreCord can “pull” users to specified servers. This WILL NOT grant anyone access to your account and WILL NOT steal your account token/email/password. RestoreCord is entirely safe.
 
 ### Need further help?
 
-Check out our Documentation at https://docs.restorecord.com/ or create a topic at https://community.restorecord.com/
+Join our [telegram group](https://t.me/RestoreCord){ target="_blank" } or create a topic on our [community forum](https://community.restorecord.com/){ target="_blank" }.
