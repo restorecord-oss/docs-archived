@@ -14,7 +14,7 @@ Read this before proceeding.
 
 ## Create a bot
 
-Head on over to the [Discord Developer Portal](https://discord.com/developers/applications){ target="_blank", rel="noopener noreferrer" } and click the **New Application** button in the top right of your screen.
+Head on over to the [Discord Developer Portal](https://discord.com/developers/applications){ target="_blank" } and click the **New Application** button in the top right of your screen.
 
 Name it something not suspicious, do **NOT** include the word `RestoreCord` in your application name.
 
@@ -57,7 +57,7 @@ To prevent being banned if a RestoreCord ban wave occurs, it's highly recommende
 https://restorecord.com/api/callback
 |||
 
-- After creating an application on the Discord Developer Portal](https://discord.com/developers/applications){ rel="noopener noreferrer" }, go to the `OAuth2` tab and add a Redirect URL.
+- After creating an application on the Discord Developer Portal](https://discord.com/developers/applications){ target="_blank" }, go to the `OAuth2` tab and add a Redirect URL.
   ![](../static/BotSetup/redirect_url.png)
 
 !!!success Click "Save Changes"

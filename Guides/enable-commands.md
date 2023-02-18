@@ -13,7 +13,7 @@ icon: file-code
 
 This will allow your Bot to be online and be able to respond to commands.
 
-- Edit your Custom Bot on the [Dashboard](https://restr.co/bots){ target="_blank" } and add the Public Key from the [Discord Developer Portal](https://discord.com/developers/applications){ target="_blank", rel="noopener noreferrer" } to the `Public Key` field.
+- Edit your Custom Bot on the [Dashboard](https://restr.co/bots){ target="_blank" } and add the Public Key from the [Discord Developer Portal](https://discord.com/developers/applications){ target="_blank" } to the `Public Key` field.
   ![](../static/BotSettings/configuration.png)
 
   ||| **Interaction URL:**
@@ -28,7 +28,7 @@ This will allow your Bot to be online and be able to respond to commands.
 !!!primary Why is the bot offline?
 Your custom bot will always appear offline on Discord.
 
-Don't worry, this is normal. We use the Discord [Rest API](https://discord.com/developers/docs/reference){ target="_blank", rel="noopener noreferrer" } rather than a WebSocket connection, so RestoreCord can do everything necessary with better performance	 even though it appears offline.
+Don't worry, this is normal. We use the Discord [Rest API](https://discord.com/developers/docs/reference){ target="_blank" } rather than a WebSocket connection, so RestoreCord can do everything necessary with better performance	 even though it appears offline.
 !!!
 
 !!!success Click "Save Changes"

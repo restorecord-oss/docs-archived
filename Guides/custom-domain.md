@@ -73,7 +73,7 @@ https://restorecord.com/verify/$1
 
 ### Step 3: Setup Discord Redirect URL
 
-Once you have set up Cloudflare, you will need to set up your Discord Redirect URL. To do this, you will need to go to the [Discord Developer Portal](https://discord.com/developers/applications){ target="_blank", rel="noopener noreferrer" } and select your bot. Once you have selected your bot, you will need to go to the `OAuth2` tab and scroll down to the `Redirects` section.
+Once you have set up Cloudflare, you will need to set up your Discord Redirect URL. To do this, you will need to go to the [Discord Developer Portal](https://discord.com/developers/applications){ target="_blank" } and select your bot. Once you have selected your bot, you will need to go to the `OAuth2` tab and scroll down to the `Redirects` section.
 
 You will need to add `https://example.com/api/callback` to the `Redirects` section. Replace `example.com` with your domain name.
 

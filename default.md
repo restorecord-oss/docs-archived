@@ -22,7 +22,7 @@ RestoreCord has multiple use cases:
 
 ## How does RestoreCord work?
 
-RestoreCord uses Discord's [OAuth2](https://discord.com/developers/docs/topics/oauth2){ target="_blank", rel="noopener noreferrer" } feature which gives users the ability to add Applications/Bots to their accounts. With special permissions, RestoreCord can “pull” users to specified servers. This WILL NOT grant anyone access to your account and WILL NOT steal your account token/email/password. RestoreCord is entirely safe.
+RestoreCord uses Discord's [OAuth2](https://discord.com/developers/docs/topics/oauth2){ target="_blank" } feature which gives users the ability to add Applications/Bots to their accounts. With special permissions, RestoreCord can “pull” users to specified servers. This WILL NOT grant anyone access to your account and WILL NOT steal your account token/email/password. RestoreCord is entirely safe.
 
 ### Need further help?
 
