@@ -15,7 +15,7 @@ This is why it's imperative you follow our guide to keeping your bot safe. View 
 
 Your server was just banned/deleted? How do we restore our members and settings? Read below.
 
-Navigate to the `Servers` tab of the [dashboard](https://restorecord.com/dashboard/settings){ target="_blank" }
+Navigate to the `Servers` tab of the [dashboard](https://restorecord.com/dashboard/server){ target="_blank" }
 
 Click the **Edit** button for the server that was just banned or deleted. Follow the below guide to update the **Guild ID (also called Server ID)**, and **Member Role ID** fields.
 
@@ -25,7 +25,7 @@ Once these settings are set, click the **Save Changes** button at the bottom of 
 
 ### Restore your members
 
-Upon completing the above setting changes, click the **Migrate** button on the `Servers` tab of the [dashboard](https://restorecord.com/dashboard/settings){ target="_blank" }
+Upon completing the above setting changes, click the **Migrate** button on the `Servers` tab of the [dashboard](https://restorecord.com/dashboard/server){ target="_blank" }
 
 This will initiate pulling your members to the set server. You may close your browser and RestoreCord will keep pulling. Be patient, it may take a while due to Discord rate limits. 
 
@@ -38,7 +38,7 @@ You can view a log of members being pulled if you enable System Messages in your
 [!ref Upgrade Account](https://restr.co/upgr){ target="_blank" }
 !!!
 
-You would've had to of clicked the **Backup** button on the `Servers` tab of the [dashboard](https://restorecord.com/dashboard/settings){ target="_blank" } before to being banned to have your server settings backed up.
+You would've had to of clicked the **Backup** button on the `Servers` tab of the [dashboard](https://restorecord.com/dashboard/server){ target="_blank" } before to being banned to have your server settings backed up.
 
 Browse to the `Backups` tab of the [dashboard](https://restorecord.com/dashboard/backups){ target="_blank" }. Here you'll see if you have any backups present.
 
