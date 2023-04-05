@@ -5,7 +5,7 @@ tags: [Guides]
 icon: stack-24
 ---
 
-Navigate to the `Servers` tab of our [dashboard](https://restorecord.com/dashboard/settings){ target="_blank" } and click on the **Create New Server** button.
+Navigate to the `Servers` tab of our [dashboard](https://restorecord.com/dashboard/server){ target="_blank" } and click on the **Create New Server** button.
 
 ![](../static/ServerSetup/create.png)
 
@@ -29,7 +29,7 @@ Scroll through your Discord server list until you see your Discord server.
 
 ![](../static/ServerSetup/server-id.png)
 
-Right-click your Discord server's icon and click the **Copy ID** button. Paste into the **Server Id** field on the [dashboard](https://restorecord.com/dashboard/settings){ target="_blank" } when you click the **Create New Server** button.
+Right-click your Discord server's icon and click the **Copy ID** button. Paste into the **Server Id** field on the [dashboard](https://restorecord.com/dashboard/server){ target="_blank" } when you click the **Create New Server** button.
 
 ## Copy role ID
 
@@ -37,7 +37,7 @@ Create a role in your Discord server. This is the role your members will receive
 
 ![](../static/ServerSetup/role-id.png)
 
-Right-click on the role's name and click the **Copy ID** button. Paste into the **Member Role Id** field on the [dashboard](https://restorecord.com/dashboard/settings){ target="_blank" } when you click the **Create New Server** button.
+Right-click on the role's name and click the **Copy ID** button. Paste into the **Member Role Id** field on the [dashboard](https://restorecord.com/dashboard/server){ target="_blank" } when you click the **Create New Server** button.
 
 !!!warning Bot Role
 <u>Make sure that the role of the Bot is higher than the verified/member role.</u>
